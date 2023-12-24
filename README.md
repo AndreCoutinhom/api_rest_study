@@ -56,3 +56,54 @@ Hoje em dia é bem comum a utilização de APIs que seguem o modelo REST no dese
 ## [REST: Conceito e fundamentos](https://www.alura.com.br/artigos/rest-conceito-e-fundamentos?_gl=1*1l5jqb3*_ga*ODM1Nzk2OTUyLjE2OTgzNDc1Mjk.*_ga_1EPWSW3PCS*MTcwMzAyMzMwOC4xMDIuMC4xNzAzMDIzMzA4LjAuMC4w*_fplc*NVUzUzlBYVhTREVxS3ZJR1V1VkNneEFoSFJqZmVDeVU3dXYlMkJ5WE9tb2lvcmNnV0F4akdScjJzeTFUcmVEZnhiSXpmaE5FM0N3T0cxZjUyZk0lMkJiYnBrSzBBYjhyMktFR1ZvNWNQQWZIcHl6OGVLMW91d2FEQUxFdHA5ZDB1QSUzRCUzRA..)
 
 ## Boas práticas na Modelagem de API'S REST
+
+* Use nomes e não verbos. Não utilizar `/getAllCars` e sim `/cars` 
+* Não misture plural e singualar.
+
+* Relacionamentos existentes devem estar explícitos na URL.
+  * Exemplo: `GET /cars/711/ drivers` retorna uma lista de motoristas no carro 711.
+  * Exemplo: `GET /cars/711/drivers/4` retorna o motorista 4 do carro 711.
+* Entenda sobre idempotência. Uma mesma requisição retorna o mesmo resultado se executado mais de uma vez?
+  * GET - Sim;
+  * HEAD - Sim;
+  * PUT - Sim;
+  * DELETE- Sim;
+  * POST - Não;
+  * PATCH - Não.
+* Não ignore cabeçalhos HTTP. `Content-Type`; `Accept`; `Cache`.
+* Use HATEOAS (*Hypermedia As The Engine Of Application State*). Facilite a interação do cliente com a API.
+  * Exemplo:
+``` json
+{
+  "cursos": [
+    {
+      "id": 1,
+      "nome": "C# (C Sharp)",
+      "links": [
+        {
+          "type": "GET",
+          "rel": "self",
+          "uri": "api.treinaweb.com.nr/cursos/1"
+        },
+        {
+          "type": "GET",
+          "rel": "cursos_aulas",
+          "uri": "api.treinaweb.com.nr/cursos/1/aulas"
+        },
+        {
+          "type": "DELETE",
+          "rel": "curso_exclusao",
+          "uri": "api.treinaweb.com.nr/cursos/1"
+        }
+      ]
+    }
+  ]
+}
+  ```
+* Sua API deve ser flexível. Filtro, ordenação, paginação e seleção de campos.
+> Especialmente necessário no Brasil que possui muita rede limitada para Internet.
+* Versione sua API.
+* Utilize corretamente os status HTTP.
+
+![image](https://github.com/AndreCoutinhom/api_rest_study/assets/91290799/71aad845-df70-4708-8fab-b57109e9f6df)
+
