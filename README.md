@@ -13,7 +13,7 @@ A computação no geral é muito dinâmica e evolue em um ritmo bastante acelera
 
 Hoje em dia é bem comum a utilização de APIs que seguem o modelo REST no desenvolvimento de aplicações multiplataforma, sendo muito importante entender sobre tais assuntos.
 
-## O que é uma API (*Application Programming Interface*)?
+## O que é uma API (*Application Programming Interface*)? 📽️
 
 ![image](https://github.com/AndreCoutinhom/api_rest_study/assets/91290799/4f3e743f-4ffe-47cc-83ee-833989531c2d)
 
@@ -33,7 +33,7 @@ Hoje em dia é bem comum a utilização de APIs que seguem o modelo REST no dese
 
 * APIs de código fonte: objetos utilizados em linguagens de programação para adquirir atributos de código. A sintaxe da API pode ser diferente dependendo da linguagem da programação.
 
-## O que é REST
+## O que é REST 📽️
 
 * Representational State Transfer, abreviado como REST, não é uma tecnologia, uma biblioteca, e nem tampouco uma arquitetura, mas sim um modelo a ser utilizado para se projetar arquiteturas de software distribuído, baseadas em comunicação via rede.
 * REST é um dos modelos de arquitetura que foi descrito por Roy Fielding, um dos principais criadores do protocolo HTTP, em sua tese de doutorado e que foi adotado como o modelo a ser utilizado na evolução da arquitetura do protocolo HTTP.
@@ -53,9 +53,9 @@ Hoje em dia é bem comum a utilização de APIs que seguem o modelo REST no dese
 * [Richardson Maturity Model](https://martinfowler.com/articles/richardsonMaturityModel.html)
 * [Postman](https://www.postman.com)
 
-## [REST: Conceito e fundamentos](https://www.alura.com.br/artigos/rest-conceito-e-fundamentos?_gl=1*1l5jqb3*_ga*ODM1Nzk2OTUyLjE2OTgzNDc1Mjk.*_ga_1EPWSW3PCS*MTcwMzAyMzMwOC4xMDIuMC4xNzAzMDIzMzA4LjAuMC4w*_fplc*NVUzUzlBYVhTREVxS3ZJR1V1VkNneEFoSFJqZmVDeVU3dXYlMkJ5WE9tb2lvcmNnV0F4akdScjJzeTFUcmVEZnhiSXpmaE5FM0N3T0cxZjUyZk0lMkJiYnBrSzBBYjhyMktFR1ZvNWNQQWZIcHl6OGVLMW91d2FEQUxFdHA5ZDB1QSUzRCUzRA..)
+## [REST: Conceito e fundamentos](https://www.alura.com.br/artigos/rest-conceito-e-fundamentos?_gl=1*1l5jqb3*_ga*ODM1Nzk2OTUyLjE2OTgzNDc1Mjk.*_ga_1EPWSW3PCS*MTcwMzAyMzMwOC4xMDIuMC4xNzAzMDIzMzA4LjAuMC4w*_fplc*NVUzUzlBYVhTREVxS3ZJR1V1VkNneEFoSFJqZmVDeVU3dXYlMkJ5WE9tb2lvcmNnV0F4akdScjJzeTFUcmVEZnhiSXpmaE5FM0N3T0cxZjUyZk0lMkJiYnBrSzBBYjhyMktFR1ZvNWNQQWZIcHl6OGVLMW91d2FEQUxFdHA5ZDB1QSUzRCUzRA..) 📕
 
-## Boas práticas na Modelagem de API'S REST
+## Boas práticas na Modelagem de API'S REST 📽️
 
 * Use nomes e não verbos. Não utilizar `/getAllCars` e sim `/cars` 
 * Não misture plural e singualar.
