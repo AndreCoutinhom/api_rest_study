@@ -64,12 +64,12 @@ Hoje em dia é bem comum a utilização de APIs que seguem o modelo REST no dese
   * Exemplo: `GET /cars/711/ drivers` retorna uma lista de motoristas no carro 711.
   * Exemplo: `GET /cars/711/drivers/4` retorna o motorista 4 do carro 711.
 * Entenda sobre idempotência. Uma mesma requisição retorna o mesmo resultado se executado mais de uma vez?
-  * GET - Sim;
-  * HEAD - Sim;
-  * PUT - Sim;
-  * DELETE- Sim;
-  * POST - Não;
-  * PATCH - Não.
+  * **GET** - Sim;
+  * **HEAD** - Sim;
+  * **PUT** - Sim;
+  * **DELETE**- Sim;
+  * **POST** - Não;
+  * **PATCH** - Não.
 * Não ignore cabeçalhos HTTP. `Content-Type`; `Accept`; `Cache`.
 * Use HATEOAS (*Hypermedia As The Engine Of Application State*). Facilite a interação do cliente com a API.
   * Exemplo:
