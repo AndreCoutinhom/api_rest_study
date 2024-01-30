@@ -54,6 +54,7 @@ Hoje em dia é bem comum a utilização de APIs que seguem o modelo REST no dese
 * [Postman](https://www.postman.com)
 
 ## [REST: Conceito e fundamentos](https://www.alura.com.br/artigos/rest-conceito-e-fundamentos?_gl=1*1l5jqb3*_ga*ODM1Nzk2OTUyLjE2OTgzNDc1Mjk.*_ga_1EPWSW3PCS*MTcwMzAyMzMwOC4xMDIuMC4xNzAzMDIzMzA4LjAuMC4w*_fplc*NVUzUzlBYVhTREVxS3ZJR1V1VkNneEFoSFJqZmVDeVU3dXYlMkJ5WE9tb2lvcmNnV0F4akdScjJzeTFUcmVEZnhiSXpmaE5FM0N3T0cxZjUyZk0lMkJiYnBrSzBBYjhyMktFR1ZvNWNQQWZIcHl6OGVLMW91d2FEQUxFdHA5ZDB1QSUzRCUzRA..) 📕
+![image](https://github.com/AndreCoutinhom/api_rest_study/assets/91290799/79d18930-7e05-4a5a-86af-64675f16f10c)
 
 ## Boas práticas na Modelagem de API'S REST 📽️
 
